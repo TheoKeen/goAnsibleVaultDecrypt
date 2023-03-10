@@ -8,7 +8,7 @@ import(
 
 func main() {
 
-  if len(os.Args) < 2 { 
+  if len(os.Args) < 3 { 
     fmt.Printf("Usage: %s Path Password\n", os.Args[0])
     os.Exit(1) 
   }
